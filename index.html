@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <title>Online Beauty Store</title>
+     <!-- Project based on E-commerce site by Daily Tuition: https://www.youtube.com/watch?v=36jRXMsIFuA&list=PLijZ7Wd7cFcCdPMIOhBGyPwyxRGDuuwHv&index=18 -->
+        
+     <!--Bootstrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+     crossorigin="anonymous">
+
+<!--Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/4f3c53901d.js" 
+crossorigin="anonymous"></script>
+
+<!-- <Custom Stylesheet> -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+
+      <!--header -->
+
+        <header>
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-4 col-sm-12 col-12">
+                   <div class="btn-group">
+                       <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                       data-bs-toggle="dropdown" 
+                       aria-haspopup="true" 
+                       aria-expanded="false"
+                       >
+                       USD
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        EUR - Euro </a>
+                        <hr class="dropdown-divider">
+                         <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        GBP - Pounds </a>
+                        <hr class="dropdown-divider">
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        JPY - Yen </a>
+                        <hr class="dropdown-divider">
+                        <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CNY - Yuan</a>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">Online Beauty Store</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a>
+                        <a href="#" class="px-1">Create An Account</a>
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">COLLECTIONS</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              COSMETICS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Eyes</a></li>
+                              <li><a class="dropdown-item" href="#">Lips</a></li>
+                              <li><a class="dropdown-item" href="#">Face</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Bundles</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="navbar-nav">
+                        <li class="nav-item border rounded-circle mx-2 search-icon">
+                            <i class="fas fa-search p-2"></i>
+                        </li>
+                        <li class="nav-item border rounded-circle mx-2 basket-icon">
+                            <i class="fas fa-shopping-basket p-2"></i>
+                        </li>
+
+                    </div>               
+            </div>
+           
+            </nav>
+        </div>
+        </header>
+
+    <!--/header --> 
+
+    <!--Main Section --> 
+        <main>
+          
+<!-- Image Carousel -->
+<!-- /* Carousel from Drew Ryan - https://www.youtube.com/watch?v=JPcP2HJdqJw&t=1943s */
+ -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+ 
+  <!-- Carousel Indicators -->
+
+
+    <div class="carousel-item active">
+      <img src="./assets/pexels-pixabay-354962.jpg" alt="makeup 0" class="w-100">
+      </div>
+   
+    <div class="carousel-item">
+      <img src="./assets/pexels-emma-bauso-2253832.jpg" alt="makeup 1"  class="w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="./assets/pexels-cottonbro-4620838.jpg" alt="makeup 2"  class="w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="./assets/pexels-somi-hamad-4540077.jpg" alt="makeup 3" class="w-100">
+    </div>    
+
+
+  </div>
+
+
+  </div>
+
+
+</div>
+
+</div>
+
+
+        </main>
+
+    <!--/Main Section --> 
+
+        <footer></footer>
+
+        
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+        crossorigin="anonymous"></script>
+     
+     <script src="./js/main.js"></script>
+
+    </body>
+</html>
